@@ -9,7 +9,7 @@ from scipy.stats import multivariate_normal
 import gc
 
 
-logger = logging.getLogger("MS2Planner.curve")
+logger = logging.getLogger(__name__)
 
 
 def CentroidSampleControl(centers, intensity_threshold, intensity_ratio, feature_id):

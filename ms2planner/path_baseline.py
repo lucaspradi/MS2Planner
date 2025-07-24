@@ -4,7 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 
-logger = logging.getLogger('MS2Planner.baseline')
+logger = logging.getLogger(__name__)
 
 
 def ReadFile(infile_name, sample_name, bg_name, suffix):

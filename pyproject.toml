@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ms2planner"
+version = "0.0.1"
+authors = [
+  { name="Lucas Pradi", email="lucas.pradi@univ-cotedazur.fr" },
+]
+description = "MS2Planner is a python package designed for optimizing data acquisition coverage in Tandem Mass Spectrometry (MS/MS) based Metabolomics by Iterative Acquisition "
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
